@@ -10,3 +10,8 @@ BOT_CONFIG = {
     }
 }
 
+def get_intent(text):
+    for intent in BOT_CONFIG['intents']:
+        print(intent)
+
+get_intent('')
